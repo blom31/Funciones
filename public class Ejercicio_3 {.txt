@@ -1,0 +1,31 @@
+public class Ejercicio_3 {
+    
+    public static void conversor(double monto, String moneda){
+        switch(moneda.toLowerCase()){
+            case "libras":
+                System.out.println(monto +" convertido a libras es: "+ (monto*0.86));
+                break;
+            case "dolares":
+                System.out.println(monto +" convertido a dolares es: "+ (monto*1.28611));
+                break;
+            case "yenes":
+                System.out.println(monto +" convertido a yenes es: "+ (monto*129.852));
+               
+        }
+    }
+    //161.46041541887595
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        double monto;
+        String moneda;
+        
+        System.out.println("Ingrese el monto en euros a convertir");
+        monto = leer.nextDouble();
+        System.out.println("Ingrese la moneda a convertir");
+        moneda = leer.next();
+        
+        conversor(monto, moneda);
+        
+    }
+    
+}

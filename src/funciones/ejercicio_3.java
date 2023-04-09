@@ -6,7 +6,6 @@ El cambio de divisas es:
 * 0.86 libras es un 1 €
 * 1.28611 $ es un 1 €
 * 129.852 yenes es un 1 €
-
  */
 package funciones;
 

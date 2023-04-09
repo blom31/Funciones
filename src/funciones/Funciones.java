@@ -1,7 +1,7 @@
 /*
  * EJEMPLO DE FUNCIONES
  */
-package funciones;
+package funciones;    
 
 
 /**
